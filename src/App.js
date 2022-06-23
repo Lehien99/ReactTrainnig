@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="main">
       <h2 className="main-header text-3xl py-8">React Crud Operations</h2>
-          <Navbar/>
+      <Navbar/>
     
       <Routes>
         <Route path="/create" element={<Create />} />
